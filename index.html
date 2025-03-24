@@ -2,18 +2,92 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CardBit by Jaden</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CardBit</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
-    h1 { color: #2c3e50; }
-    p { font-size: 18px; }
-    button { padding: 10px 20px; background: #3498db; color: white; border: none; cursor: pointer; }
-    button:hover { background: #2980b9; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7fa;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background-color: #87CEEB;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h1 {
+      margin: 0;
+      font-size: 36px;
+      color: #fff;
+    }
+    .features {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    .feature-box {
+      background-color: #ADD8E6;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 10px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    footer {
+      padding: 20px;
+      background-color: #87CEEB;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    }
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    button {
+      background-color: #4682B4;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #4169E1;
+    }
   </style>
 </head>
 <body>
-  <h1>Welcome to CardBit</h1>
-  <p>Master your flashcards with ease—built by Jaden, 6’3” of coding grit.</p>
-  <button onclick="alert('Coming soon to the App Store!')">Get Early Access</button>
+  <header>
+    <h1>CardBit</h1>
+  </header>
+  <div class="features">
+    <div class="feature-box">
+      <h2>Smart Flashcards</h2>
+      <p>Create and study flashcards with ease—master any subject fast.</p>
+    </div>
+    <div class="feature-box">
+      <h2>Track Your Progress</h2>
+      <p>Monitor study dates and stats to stay on top of your game.</p>
+    </div>
+    <div class="feature-box">
+      <h2>Premium Features</h2>
+      <p>Unlock unlimited decks and ad-free learning—coming soon!</p>
+    </div>
+    <button onclick="alert('Stay tuned for the App Store launch!')">Get Notified</button>
+  </div>
+  <footer>
+    <a href="/terms-of-service.html">Terms of Service</a>
+    <a href="/privacy-disclosure.html">Privacy Disclosure</a>
+  </footer>
 </body>
 </html>
